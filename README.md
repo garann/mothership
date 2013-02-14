@@ -14,6 +14,7 @@ Currently, we assume your advice is a video hosted on [vimeo](http://vimeo.com/)
 - conflict (as in, resolving it)
 - money
 - longterm
+
 If you make a new one, be sure to also update this README so other folks can use it.
 
 Once you've added the post, just make a pull request, and we'll get it added to the site!
