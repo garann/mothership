@@ -9,7 +9,7 @@ a {
 }
 
 .video {
-	margin: 20px 0;
+	margin: 20px auto;
 	text-align: left;
 	padding: 10px;
 	max-width: 600px;
