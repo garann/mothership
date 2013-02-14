@@ -1,9 +1,7 @@
 ---
 layout: layout
-title: home
 ---
 
-{% for page in site.posts %}
 <div class="video">
     <h3>{{ page.title }}</h3>
     <div class="video-wrapper">
@@ -11,4 +9,3 @@ title: home
     </div>
     from <a href="http://github.com/{{ page.author }}">{{ page.author }}</a> / <a href="http://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a>
 </div>
-{% endfor %}
