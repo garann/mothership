@@ -16,8 +16,18 @@ task :init_github do
   end
 end
 
-desc "deploy public directory to github pages"
 multitask :deploy do
+  Rake::Task[:generate].invoke()
+  Rake::Task[:push].invoke()
+end
+
+desc "generate the site using jekyll"
+task :generate do
+  system "jekyll"
+end
+
+desc "deploy public directory to github pages"
+task :push do
   puts "## Deploying branch to Github Pages "
   (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
   Rake::Task[:copydot].invoke(public_dir, deploy_dir)
