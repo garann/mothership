@@ -11,7 +11,9 @@ title: home
     </div>
     from <a href="http://github.com/{{ page.author }}">{{ page.author }}</a> / <a href="http://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a>
 
-    <div class="categories">Filed under {{ post.categories | category_links }}</div>
+    <div class="categories">
+        Filed under <a href="./categories/{{ page.category }}">{{ page.category }}</a>
+    </div>
 
 </div>
 {% endfor %}
