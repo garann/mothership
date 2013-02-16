@@ -60,6 +60,13 @@ footer {
 	font-size: 1.5em;
 }
 
+.forkme {
+	display: block; 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	border: 0;
+}
 .video {
 	margin: 20px auto;
 	text-align: left;
