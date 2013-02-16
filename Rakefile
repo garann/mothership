@@ -1,4 +1,4 @@
-git_repo = "git@github.com:tswicegood/mothership"
+git_repo = "git@github.com:garann/mothership"
 deploy_dir = "_deploy"
 deploy_branch = "gh-pages"
 public_dir = "_site"
