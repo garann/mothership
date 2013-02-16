@@ -18,3 +18,11 @@ Currently, we assume your advice is a video hosted on [vimeo](http://vimeo.com/)
 If you make a new one, be sure to also update this README so other folks can use it.
 
 Once you've added the post, just make a pull request, and we'll get it added to the site!
+
+### to-do ###
+
+- add links to specific categories showing a filtered list of posts
+- make a nicer looking design
+- add a favicon
+- allow other video hosts
+- make more videos (always)
