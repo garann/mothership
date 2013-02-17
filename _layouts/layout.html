@@ -11,6 +11,14 @@
 	<a href="https://github.com/garann/mothership" class="forkme"><img src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 	<h1>Mothership</h1>
 	<h2>a la carte career mentorship for women developers</h2>
+	<nav>
+		<h3>topic categories:</h3>
+		<ul>
+			{{ for category in site.categories }}
+			<li><a href="{{ category }}.html">{{ category }}</a></li>
+			{{ endfor }}
+		</ul>
+	</nav>
 
 	{{ content }}
 
