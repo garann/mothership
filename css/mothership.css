@@ -58,6 +58,7 @@ nav {
 	padding: 20px 10px;
 	margin: 0px auto;
 }
+nav ul,
 nav li {
 	list-style-type: none;
 	padding: 0;
