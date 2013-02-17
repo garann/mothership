@@ -53,6 +53,10 @@ h3 {
 a {
 	color: #9cf;
 }
+nav {
+	width: 640px;
+	padding: 20px 10px;
+}
 footer {
 	background-color: #336;
 	padding: 20px 0;
