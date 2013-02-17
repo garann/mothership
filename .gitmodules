@@ -1,0 +1,3 @@
+[submodule "vendor/jekyll-plugins"]
+	path = vendor/jekyll-plugins
+	url = git://github.com/recurser/jekyll-plugins.git
